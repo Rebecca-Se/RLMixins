@@ -30,7 +30,7 @@ import rlmixins.handlers.vanilla.TimeCacheHandler;
 import rlmixins.proxy.CommonProxy;
 import rlmixins.handlers.ModRegistry;
 
-@Mod(modid = RLMixins.MODID, version = RLMixins.VERSION, name = RLMixins.NAME)//, acceptableRemoteVersions = "[1.2.14,)")
+@Mod(modid = RLMixins.MODID, version = RLMixins.VERSION, name = RLMixins.NAME, acceptableRemoteVersions = "[1.2.14,)")
 public class RLMixins
 {
     public static final String MODID = "rlmixins";
